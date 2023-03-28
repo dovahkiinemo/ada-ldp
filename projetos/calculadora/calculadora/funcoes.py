@@ -9,3 +9,9 @@ def subtracao(x,y):
         return x - y
     except TypeError:
         print(f"O input 'a' e 'b' devem ser um int/float, recebido {a}, {type(a)}, e {b},  {type(b)}")
+
+def multiplicacao(x,y):
+    try:
+        return x * y
+    except TypeError:
+        print(f"O input 'a' e 'b' devem ser um int/float, recebido {a}, {type(a)}, e {b},  {type(b)}")
